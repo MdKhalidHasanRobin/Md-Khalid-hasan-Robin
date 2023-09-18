@@ -46,6 +46,9 @@
 </header>
 
 <body>
+    <div id="particles-js"></div>
+    <script type="text/javascript" src="particles.js"></script>
+    <script type="text/javascript" src="app.js"></script>
 
 
     <main>
@@ -83,7 +86,7 @@
 
             </div>
             <div class="home-img">
-                <img src="images/Backgroud.jpg" alt="">
+                <img src="images/Certificate/Me/1.JPG" alt="">
             </div>
 
         </section>
@@ -91,7 +94,7 @@
         <!-- about section design -->
         <section class="about" id="about">
             <div class="about-img">
-                <img src="images/dextop.jpg" alt="">
+                <img src="images/Certificate/Md Khalid Hasan Robin.jpg" alt="">
             </div>
             <div class="about-content">
                 <h2 class="heading">About <span>Me</span></h2>
@@ -156,7 +159,7 @@
             <h2 class="heading">Latest <span>Projects</span></h2>
             <div class="portfolio-container">
                 <div class="portfolio-box">
-                    <img src="images/dextop.jpg" alt="">
+                    <img src="images/Certificate/Mkhr banner.JPG" alt="">
                     <div class="portfolio-layer">
                         <h4>Web Design</h4>
                         <p>Frontend Web Developer
@@ -167,7 +170,7 @@
                     </div>
                 </div>
                 <div class="portfolio-box">
-                    <img src="images/dextop.jpg" alt="">
+                    <img src="images/Certificate/Me/1.1.JPG" alt="">
                     <div class="portfolio-layer">
                         <h4>Web Design</h4>
                         <p>Create designs for marketing materials, including social media graphics, website banners,
@@ -177,7 +180,7 @@
                     </div>
                 </div>
                 <div class="portfolio-box">
-                    <img src="images/dextop.jpg" alt="">
+                    <img src="images/Certificate/Me/1.JPG" alt="">
                     <div class="portfolio-layer">
                         <h4>Web Design</h4>
                         <p>Videos Editing and Content Making for marketing, including social media graphics, Videos &
@@ -318,19 +321,19 @@
         <section class="contact" id="contact">
             <h2 class="heading">Contact <span>Me!</span></h2>
 
-            <form onsubmit="sentMail()">
+            <form action="https://formsubmit.co/mdkhalidhasanrobin99@gmail.com" method="POST">
                 <div class="input-box">
-                    <input type="text" class="form-control" id="name" placeholder="Full Name">
-                    <input type="email" class="form-control" id="email" placeholder="Email Address">
+                    <input type="text" name="Full Name" class="form-control" id="name" placeholder="Full Name">
+                    <input type="email" name="Email" class="form-control" id="email" placeholder="Email Address">
                 </div>
                 <div class="input-box">
-                    <input type="number" class="form-control" id="number" placeholder="Mobile Number">
-                    <input type="text" class="form-control" id="subject" placeholder="Email Subject">
+                    <input type="number" name="Phone Number" class="form-control" id="number" placeholder="Mobile Number">
+                    <input type="text" name="Subject" class="form-control" id="subject" placeholder="Email Subject">
                 </div>
 
-                <textarea name="" id="message" class="form-control" cols="30" rows="10"
+                <textarea name="Message" id="message" class="form-control" cols="30" rows="10"
                     placeholder="Your Message"></textarea>
-                <input type="submit" value="Send Message" onclick="sentMail()" class="btn">
+                <input type="submit" value="Send Message" class="btn">
 
             </form>
 

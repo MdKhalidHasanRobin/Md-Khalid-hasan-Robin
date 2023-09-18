@@ -25,8 +25,16 @@ html {
 }
 
 body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
     background: var(--bg-color)!important;
     color: var(--text-color)!important;
+}
+#particles-js{
+    height: auto;
+    /* background: #f00!important; */
 }
 
 .header {
@@ -258,6 +266,7 @@ span {
 
 }
 
+
 .about-img img {
     width: 40vw;
 }
@@ -422,7 +431,7 @@ span {
 /* Gallery Photos Section */
 .gp-stn{
     width: auto;
-    height: 600px;
+    height: auto;
     margin-top: 50px;
     margin-bottom: 230px;
 }
@@ -490,7 +499,7 @@ span {
 
 .footer-text p {
     margin-top: 30px;
-    margin-left: 350px;
+    margin-left: auto;
     font-size: 1.6rem;
 
 }
@@ -543,6 +552,8 @@ span {
 
     .footer {
         padding: 2rem 3%;
+        text-align: center;
+        align-items: center;
     }
 }
 
